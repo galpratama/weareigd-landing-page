@@ -42,7 +42,7 @@ a {
 }
 
 .intro-header {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
@@ -137,8 +137,10 @@ p {
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url('https://cdn-images-1.medium.com/max/2000/1*k6WytTXBZQsX1cl71Gi2yw.jpeg') no-repeat center center;
+  padding: 100px 0;
+  color: #f8f8f8;
   background-size: cover;
+  background-color: #dc3646;
 }
 
 .banner h2 {
@@ -202,6 +204,53 @@ p.copyright {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
 }
 
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 1rem 1.7rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 2.15rem;
+    transition: all .15s ease-in-out;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
 
+.btn-danger, .btn-secondary {
+    box-shadow: 0px 10px 60px rgba(228, 110, 148, 0.5);
+    -webkit-transition: ease all 0.2s;
+    -moz-transition: ease all 0.2s;
+    -o-transition: ease all 0.2s;
+    transition: ease all 0.2s;
+}
+
+.navbar {
+    padding: 1.2rem 1rem !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font-weight: bolder;
+}
